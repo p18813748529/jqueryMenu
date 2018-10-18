@@ -6,13 +6,26 @@ li{
     list-style: none;
 }
 .wrap{
-    width: 800px;
-    margin: 0 auto;
-    .menu{
-        li{
-            background: #333;
-            color: #fff;
-            font-size: 16px;
+    width: 200px;
+    margin: 100px;
+    background: #333;
+    color: #fff;
+    li{
+        margin: 5px 0;
+        p{
+            padding: 5px 10px;
+            cursor: pointer;
+            &:hover{
+                background: #ddd;
+                color: #333;
+            }
+            span{
+                float: right;
+            }
         }
+    }
+    .menu{
+        margin-left: 20px;
+        display: none;
     }
 }
